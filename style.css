@@ -1,0 +1,16 @@
+.color {
+    color: green;
+    font-size: 150%;
+}
+
+.ani {
+    color: cadetblue;
+    font-size: 100%;
+}
+
+#bord {
+    border: 20px solid darkolivegreen;
+    background: greenyellow;
+    padding: 10px;
+
+}
