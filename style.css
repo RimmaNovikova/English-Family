@@ -1,16 +1,46 @@
-.color {
-    color: green;
-    font-size: 150%;
+#zag {
+    text-align: center;
+    background: plum;
 }
 
-.ani {
-    color: cadetblue;
+.rov {
+    text-align: right; /* ссылки на вход и регистрацию */
     font-size: 100%;
 }
 
-#bord {
-    border: 20px solid darkolivegreen;
-    background: greenyellow;
-    padding: 10px;
+.a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: black;
+}
+.a:hover {
+    color: white; /* Цвет ссылки при наведении на нее курсора мыши */
+    background: plum; /* Цвет фона */
+}
 
+#vidi {
+    text-align: center;
+}
+#tek {
+    font-size: 130%;
+    padding: 50px 300px 50px 300px;
+}
+#spis {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: plum;
+}
+#er {
+    font-size: 180%;
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+}
+
+#ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+}
+.li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right: 200px; /*Добавляем отступ у пунктов меню*/
 }
